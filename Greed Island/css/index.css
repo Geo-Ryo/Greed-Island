@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/coolbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+        .login-container {
+            background-color: #f0fff3; /* Light green form background color */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            color: #4a4a4a; /* Dark gray heading color */
+            margin-bottom: 20px;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .login-form input[type="submit"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #4a4a4a; /* Dark gray submit button background color */
+            color: #fff; /* White submit button text color */
+            cursor: pointer;
+        }
+
+        .login-form input[type="submit"]:hover {
+            background-color: #333; /* Darken submit button color on hover */
+        }

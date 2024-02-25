@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.788) url(../img/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.loading-image {
+    display: none;
+}
+
+.content {
+    display: none;
+}
+.loading-bg{
+    height:100vh;
+    width: auto;
+}

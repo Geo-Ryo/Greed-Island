@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/coolbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup-container {
+    background-color: #f0fff3; /* Light green form background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.signup-container h2 {
+    color: #4a4a4a; /* Dark gray heading color */
+    margin-bottom: 20px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="password"],
+.signup-form input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.signup-form input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4a4a4a; /* Dark gray submit button background color */
+    color: #fff; /* White submit button text color */
+    cursor: pointer;
+}
+
+.signup-form input[type="submit"]:hover {
+    background-color: #333; /* Darken submit button color on hover */
+}
+
+.error-message {
+    color: red;
+}
